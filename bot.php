@@ -1,6 +1,6 @@
 <?php
 define('API_KEY','TOKEN');
-$chat_id = "CH_USER_ID";
+$chat_id = "CH_ID";
 
 function Tel($method,$Bot=[]) {
   $url = "https://api.telegram.org/bot".API_KEY."/".$method;
